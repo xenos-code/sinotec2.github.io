@@ -22,7 +22,7 @@ cp wrf_gsn.png $gtd/cpuff_forecast/example_gifs/wrf_gsn.png
 
 cd $gtd
 $GIT pull
-$GIT add c*_forecast/*/*.g* c*_forecast/*/*.png
+$GIT add cpuff_forecast/example_gifs/PMF.gif cpuff_forecast/example_gifs/wrf_gsn.png
 $GIT commit -m "revised PMF.gif $rundate"
-$GIT push https://sinotec2:$TOKEN@github.com/sinotec2/sinotec2.github.io.git >> ~/bat.log
+$GIT push https://sinotec2:$TOKEN@github.com/sinotec2/sinotec2.github.io.git master >> ~/bat.log
  
